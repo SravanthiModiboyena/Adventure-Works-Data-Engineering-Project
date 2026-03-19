@@ -26,18 +26,23 @@ Ingestion → Storage → Transformation → Serving → Visualization
 **Visualization Layer:** Microsoft Power BI
 
 📂 Project Structure
+
 Adventure-Works-Data-Engineering-Project/
+
 │
 ├── data/
+
 │   ├── *.xlsx                # Raw data files
 │
 ├── reference scripts/
+
 │   ├── *.sql                 # SQL transformation scripts
 │   ├── *.json                # Pipeline/config files
 │   ├── *.ipynb               # Databricks notebooks (PySpark)
 │
 ├── README.md
-⚙️ Technologies Used
+
+**Technologies Used**
 
 Azure Data Factory
 
@@ -55,33 +60,33 @@ Python
 
 Power BI
 
-End-to-End Pipeline Flow
+**End-to-End Pipeline Flow :**
 
-Data Ingestion
+**Data Ingestion**
 
-Data is collected from HTTP sources (Excel files)
+--> Data is collected from HTTP sources (Excel files)
 
-Ingested using Azure Data Factory
+--> Ingested using Azure Data Factory
 
-Raw Data Storage
+**Raw Data Storage**
 
-Stored in Data Lake (Bronze Layer)
+--> Stored in Data Lake (Bronze Layer)
 
-Data Transformation
+**Data Transformation**
 
-Processed using Databricks with PySpark
+--> Processed using Databricks with PySpark
 
-Cleaning, filtering, and aggregations applied
+--> Cleaning, filtering, and aggregations applied
 
-Processed Data Storage
+**Processed Data Storage**
 
 Stored in Data Lake (Silver/Gold Layer)
 
-Data Serving
+**Data Serving**
 
 Loaded into Synapse Analytics for querying
 
-Reporting & Insights
+**Reporting & Insights**
 
 Visualized using Power BI dashboards
 
