@@ -30,35 +30,42 @@ Ingestion → Storage → Transformation → Serving → Visualization
 Adventure-Works-Data-Engineering-Project/
 
 │
+
 ├── data/
 
 │   ├── *.xlsx                # Raw data files
+
 │
+
 ├── reference scripts/
 
 │   ├── *.sql                 # SQL transformation scripts
+
 │   ├── *.json                # Pipeline/config files
+
 │   ├── *.ipynb               # Databricks notebooks (PySpark)
+
 │
+
 ├── README.md
 
 **Technologies Used**
 
-Azure Data Factory
+* Azure Data Factory
 
-Azure Data Lake Storage Gen2
+* Azure Data Lake Storage Gen2
 
-Azure Databricks
+* Azure Databricks
 
-Azure Synapse Analytics
+* Azure Synapse Analytics
 
-Apache Spark (PySpark)
+* Apache Spark (PySpark)
 
-SQL
+* SQL
 
-Python
+* Python
 
-Power BI
+* Power BI
 
 **End-to-End Pipeline Flow :**
 
