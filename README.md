@@ -99,11 +99,16 @@ Visualized using Power BI dashboards
 
 **Key Highlights**:
 
-✔ Built from scratch with real-world architecture
-✔ Implements Medallion Architecture (Bronze, Silver, Gold)
-✔ Uses PySpark for scalable transformations
-✔ Demonstrates cloud-native data engineering
-✔ Integrates multiple Azure services seamlessly
+* Built from scratch with real-world architecture
+
+* Implements Medallion Architecture (Bronze, Silver, Gold)
+
+* Uses PySpark for scalable transformations
+
+* Demonstrates cloud-native data engineering
+
+* Integrates multiple Azure services seamlessly
+
 
 **How to Run :**
 
