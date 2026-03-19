@@ -11,19 +11,19 @@ Ingestion → Storage → Transformation → Serving → Visualization
 
  **Architecture**
 
---> The pipeline follows a modern data engineering architecture:
+The pipeline follows a modern data engineering architecture:
 
-**Data Source**: HTTP-based Excel datasets
+* Data Source HTTP-based Excel datasets
 
-**Ingestion Layer:** Azure Data Factory
+* Ingestion Layer: Azure Data Factory
 
-**Storage Layer:** Data Lake Gen2 (Raw & Processed)
+* Storage Layer: Data Lake Gen2 (Raw & Processed)
 
-**Processing Layer**: Databricks (PySpark)
+* Processing Layer: Databricks (PySpark)
 
-**Serving Layer:** Synapse Analytics
+* Serving Layer: Synapse Analytics
 
-**Visualization Layer:** Microsoft Power BI
+* Visualization Layer: Microsoft Power BI
 
 📂 Project Structure
 
