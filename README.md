@@ -71,31 +71,31 @@ Adventure-Works-Data-Engineering-Project/
 
 **Data Ingestion**
 
---> Data is collected from HTTP sources (Excel files)
+* Data is collected from HTTP sources (Excel files)
 
---> Ingested using Azure Data Factory
+* Ingested using Azure Data Factory
 
 **Raw Data Storage**
 
---> Stored in Data Lake (Bronze Layer)
+* Stored in Data Lake (Bronze Layer)
 
 **Data Transformation**
 
---> Processed using Databricks with PySpark
+* Processed using Databricks with PySpark
 
---> Cleaning, filtering, and aggregations applied
+* Cleaning, filtering, and aggregations applied
 
 **Processed Data Storage**
 
-Stored in Data Lake (Silver/Gold Layer)
+* Stored in Data Lake (Silver/Gold Layer)
 
 **Data Serving**
 
-Loaded into Synapse Analytics for querying
+* Loaded into Synapse Analytics for querying
 
 **Reporting & Insights**
 
-Visualized using Power BI dashboards
+* Visualized using Power BI dashboards
 
 **Key Highlights**:
 
@@ -112,34 +112,34 @@ Visualized using Power BI dashboards
 
 **How to Run :**
 
-Upload Excel files to Data Lake
+* Upload Excel files to Data Lake
 
-Configure Azure Data Factory pipelines
+* Configure Azure Data Factory pipelines
 
-Execute Databricks notebooks
+* Execute Databricks notebooks
 
-Load data into Synapse
+* Load data into Synapse
 
-Connect Power BI for visualization
+* Connect Power BI for visualization
 
 **Use Cases**
 
-Sales & revenue analysis
+* Sales & revenue analysis
 
-Customer behavior insights
+* Customer behavior insights
 
-Business intelligence reporting
+* Business intelligence reporting
 
-Scalable data warehousing
+* Scalable data warehousing
 
 **Why This Project?**
 
 **This project showcases:**
 
-Hands-on experience with modern data engineering tools
+* Hands-on experience with modern data engineering tools
 
-Ability to design scalable data pipelines
+* Ability to design scalable data pipelines
 
-Strong understanding of ETL/ELT processes
+* Strong understanding of ETL/ELT processes
 
-Real-world cloud implementation skills
+* Real-world cloud implementation skills
